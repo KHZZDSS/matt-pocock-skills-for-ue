@@ -21,11 +21,11 @@ The route most work travels. You have an idea and want it built.
    - **`/handoff`** back what you learned, and reference it from the original idea thread.
 3. **Branch: is this a multi-session build?**
    - **Yes** → **`/to-spec`** (turn the thread into a spec), then **`/to-tickets`** to split it into tracer-bullet tickets, each declaring its **blocking edges**. Then work the tickets one of two ways:
-     - **`/implement`** per ticket, **`/clear`ing context between each one**. On a local tracker that's one file per ticket under `.scratch/<feature>/issues/`, worked blockers-first by hand; on a real tracker the edges become native blocking links, so any ticket whose blockers are done can be grabbed. Each ticket is self-contained, so the last one's context is disposable.
-     - **`/implement-spec`** for the whole spec in one run. It reads the tickets as a **task graph**, runs implementer subagents across the ready **frontier** in parallel, and lands everything on one **integration branch**. Reach for it when you'd rather orchestrate the build than drive each ticket yourself.
+     - **`/implement`** for a selected ticket. Preserve relevant facts and evidence across tickets; a fresh context is an option when a self-contained ticket benefits from it, not a required reset. On a local tracker tickets live under `.scratch/<feature>/issues/`; on a real tracker, inspect each edge's start condition as well as its status.
+     - **`/implement-spec`** for the whole spec. It coordinates the **task graph** and actual shared resources on one **integration branch**. Independent source work can run in parallel; a shared UE editor or build resource limits conflicting operations. Worktrees and agent roles are chosen for the work, not allocated mechanically per ticket.
    - **No** → **`/implement`** right here, in the same context window.
 
-   Either way, the code gets built by driving **`/tdd`** (one red-green slice at a time) and closes out with **`/code-review`**, a two-axis review (Standards + Spec) of the diff. `/implement` runs both per ticket; `/implement-spec`'s implementers each drive `/tdd`, and it runs one `/code-review` over the integration branch. Reach for **`/tdd`** on its own when you just want to build a concrete behaviour test-first without a full spec, and **`/code-review`** on its own whenever you want to review a branch or PR against a fixed point.
+   The adapted **`/tdd`** covers cheap red-green loops and costly integration evidence without demanding a rebuild or PIE restart per assertion. **`/code-review`** provides independent Standards + Spec review before final expensive acceptance; early uncertainty-reducing tests remain available. The execution skills own the detailed completion contract. Reach for `/tdd` on its own for behavior tests and `/code-review` on its own for a review against a fixed point. A UE project may provide a deadend registry: it describes proven failure boundaries, not a mandated alternative route.
 
    When the work goes up as a pull request, **`/pr`** shapes the body: the smallest visual that shows the change, before/after evidence that it works, and a one-way or two-way door call. It's model-invoked, so the agent reaches for it whenever it writes a PR.
 
@@ -33,7 +33,7 @@ The route most work travels. You have an idea and want it built.
 
 ### Context hygiene
 
-Keep steps 1–3 in **one unbroken context window** (don't compact or clear until after `/to-tickets`) so the grilling, spec, and tickets all build on the same thinking. Each `/implement` then starts fresh, working from the ticket. Run `/retro` in the session it's looking back on, before you clear; after clearing, point it at that session's log instead.
+Carry relevant decisions and evidence from discussion through tickets and implementation. Choose continuation, compaction or handoff based on context quality; a phase or ticket boundary does not itself require a new session. Run `/retro` with the relevant conversation or a pointer to its log.
 
 The limit on this is the **[smart zone](https://www.aihero.dev/ai-coding-dictionary/smart-zone)**: the window (~150k tokens on state-of-the-art models) within which the model still reasons sharply. If a session approaches it before `/to-tickets`, don't push on degraded; `/compact` at the nearest phase boundary and carry on (see Phase boundaries).
 
@@ -92,4 +92,4 @@ Off the main flow entirely.
 
 ## Precondition
 
-**`/setup-matt-pocock-skills`**: run before your first engineering flow to configure the issue tracker, triage labels, and doc layout the other skills assume. Custom issue trackers also work.
+**`/setup-matt-pocock-skills`** is available when tracker, label or document-layout configuration is missing. Existing project configuration can be reused; missing publishing configuration does not block independent implementation or review. Custom issue trackers also work.

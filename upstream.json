@@ -1,0 +1,541 @@
+{
+  "schema_version": 1,
+  "upstream_repository": "https://github.com/mattpocock/skills",
+  "fork_repository": "https://github.com/KHZZDSS/matt-pocock-skills-for-ue",
+  "fork_base_commit": "6fd947921b935b7e1e69293a200400f0fdd5c15f",
+  "baseline_date": "2026-10-07",
+  "skills": [
+    {
+      "name": "ask-matt",
+      "local_path": "skills/engineering/ask-matt",
+      "status": "unmodified",
+      "upstream_path": "skills/engineering/ask-matt",
+      "base_commit": "6fd947921b935b7e1e69293a200400f0fdd5c15f",
+      "base_tree": "da068f2392e1144469cbc602ffff96ef47881a88",
+      "last_reviewed_commit": "6fd947921b935b7e1e69293a200400f0fdd5c15f",
+      "rationale": "保留上游技能及内部资源；UE 改造尚未实施。",
+      "principles": [],
+      "validation": [
+        "建立来源基线，使用 check_skills.py 核对整个技能目录内容；未执行 UE 行为验收。"
+      ]
+    },
+    {
+      "name": "code-review",
+      "local_path": "skills/engineering/code-review",
+      "status": "unmodified",
+      "upstream_path": "skills/engineering/code-review",
+      "base_commit": "6fd947921b935b7e1e69293a200400f0fdd5c15f",
+      "base_tree": "d8e341cee7980127dddda05159bedf25dc853615",
+      "last_reviewed_commit": "6fd947921b935b7e1e69293a200400f0fdd5c15f",
+      "rationale": "保留上游技能及内部资源；UE 改造尚未实施。",
+      "principles": [],
+      "validation": [
+        "建立来源基线，使用 check_skills.py 核对整个技能目录内容；未执行 UE 行为验收。"
+      ]
+    },
+    {
+      "name": "codebase-design",
+      "local_path": "skills/engineering/codebase-design",
+      "status": "unmodified",
+      "upstream_path": "skills/engineering/codebase-design",
+      "base_commit": "6fd947921b935b7e1e69293a200400f0fdd5c15f",
+      "base_tree": "07ba1cd60efc12d0d3a083005c1d9651cf15e39a",
+      "last_reviewed_commit": "6fd947921b935b7e1e69293a200400f0fdd5c15f",
+      "rationale": "保留上游技能及内部资源；UE 改造尚未实施。",
+      "principles": [],
+      "validation": [
+        "建立来源基线，使用 check_skills.py 核对整个技能目录内容；未执行 UE 行为验收。"
+      ]
+    },
+    {
+      "name": "diagnosing-bugs",
+      "local_path": "skills/engineering/diagnosing-bugs",
+      "status": "unmodified",
+      "upstream_path": "skills/engineering/diagnosing-bugs",
+      "base_commit": "6fd947921b935b7e1e69293a200400f0fdd5c15f",
+      "base_tree": "de4236cf34757c4e9ea7afe78d46c023213ff254",
+      "last_reviewed_commit": "6fd947921b935b7e1e69293a200400f0fdd5c15f",
+      "rationale": "保留上游技能及内部资源；UE 改造尚未实施。",
+      "principles": [],
+      "validation": [
+        "建立来源基线，使用 check_skills.py 核对整个技能目录内容；未执行 UE 行为验收。"
+      ]
+    },
+    {
+      "name": "domain-modeling",
+      "local_path": "skills/engineering/domain-modeling",
+      "status": "unmodified",
+      "upstream_path": "skills/engineering/domain-modeling",
+      "base_commit": "6fd947921b935b7e1e69293a200400f0fdd5c15f",
+      "base_tree": "ea30ee454ba264543dbe40737973b1a5afb9f0e6",
+      "last_reviewed_commit": "6fd947921b935b7e1e69293a200400f0fdd5c15f",
+      "rationale": "保留上游技能及内部资源；UE 改造尚未实施。",
+      "principles": [],
+      "validation": [
+        "建立来源基线，使用 check_skills.py 核对整个技能目录内容；未执行 UE 行为验收。"
+      ]
+    },
+    {
+      "name": "grill-with-docs",
+      "local_path": "skills/engineering/grill-with-docs",
+      "status": "unmodified",
+      "upstream_path": "skills/engineering/grill-with-docs",
+      "base_commit": "6fd947921b935b7e1e69293a200400f0fdd5c15f",
+      "base_tree": "eedaf2562c83155115e9c649fa3ecaac2e10e81d",
+      "last_reviewed_commit": "6fd947921b935b7e1e69293a200400f0fdd5c15f",
+      "rationale": "保留上游技能及内部资源；UE 改造尚未实施。",
+      "principles": [],
+      "validation": [
+        "建立来源基线，使用 check_skills.py 核对整个技能目录内容；未执行 UE 行为验收。"
+      ]
+    },
+    {
+      "name": "implement",
+      "local_path": "skills/engineering/implement",
+      "status": "unmodified",
+      "upstream_path": "skills/engineering/implement",
+      "base_commit": "6fd947921b935b7e1e69293a200400f0fdd5c15f",
+      "base_tree": "27a09574c533d4b9a66c7b2b43cdfeeeb9f415b5",
+      "last_reviewed_commit": "6fd947921b935b7e1e69293a200400f0fdd5c15f",
+      "rationale": "保留上游技能及内部资源；UE 改造尚未实施。",
+      "principles": [],
+      "validation": [
+        "建立来源基线，使用 check_skills.py 核对整个技能目录内容；未执行 UE 行为验收。"
+      ]
+    },
+    {
+      "name": "implement-spec",
+      "local_path": "skills/engineering/implement-spec",
+      "status": "unmodified",
+      "upstream_path": "skills/engineering/implement-spec",
+      "base_commit": "6fd947921b935b7e1e69293a200400f0fdd5c15f",
+      "base_tree": "0cfefc751d0cb64f0c948ffcb17e13b94e778f08",
+      "last_reviewed_commit": "6fd947921b935b7e1e69293a200400f0fdd5c15f",
+      "rationale": "保留上游技能及内部资源；UE 改造尚未实施。",
+      "principles": [],
+      "validation": [
+        "建立来源基线，使用 check_skills.py 核对整个技能目录内容；未执行 UE 行为验收。"
+      ]
+    },
+    {
+      "name": "improve-codebase-architecture",
+      "local_path": "skills/engineering/improve-codebase-architecture",
+      "status": "unmodified",
+      "upstream_path": "skills/engineering/improve-codebase-architecture",
+      "base_commit": "6fd947921b935b7e1e69293a200400f0fdd5c15f",
+      "base_tree": "39bd9cc130f7dfcc4e3ea0b3613f6ebed0d0ad2b",
+      "last_reviewed_commit": "6fd947921b935b7e1e69293a200400f0fdd5c15f",
+      "rationale": "保留上游技能及内部资源；UE 改造尚未实施。",
+      "principles": [],
+      "validation": [
+        "建立来源基线，使用 check_skills.py 核对整个技能目录内容；未执行 UE 行为验收。"
+      ]
+    },
+    {
+      "name": "pr",
+      "local_path": "skills/engineering/pr",
+      "status": "unmodified",
+      "upstream_path": "skills/engineering/pr",
+      "base_commit": "6fd947921b935b7e1e69293a200400f0fdd5c15f",
+      "base_tree": "00b896d811adffad747c7ca30078d909d60c7f93",
+      "last_reviewed_commit": "6fd947921b935b7e1e69293a200400f0fdd5c15f",
+      "rationale": "保留上游技能及内部资源；UE 改造尚未实施。",
+      "principles": [],
+      "validation": [
+        "建立来源基线，使用 check_skills.py 核对整个技能目录内容；未执行 UE 行为验收。"
+      ]
+    },
+    {
+      "name": "prototype",
+      "local_path": "skills/engineering/prototype",
+      "status": "unmodified",
+      "upstream_path": "skills/engineering/prototype",
+      "base_commit": "6fd947921b935b7e1e69293a200400f0fdd5c15f",
+      "base_tree": "e41d92e171f074a2b6887d8f6faca4a15c83d1ca",
+      "last_reviewed_commit": "6fd947921b935b7e1e69293a200400f0fdd5c15f",
+      "rationale": "保留上游技能及内部资源；UE 改造尚未实施。",
+      "principles": [],
+      "validation": [
+        "建立来源基线，使用 check_skills.py 核对整个技能目录内容；未执行 UE 行为验收。"
+      ]
+    },
+    {
+      "name": "research",
+      "local_path": "skills/engineering/research",
+      "status": "unmodified",
+      "upstream_path": "skills/engineering/research",
+      "base_commit": "6fd947921b935b7e1e69293a200400f0fdd5c15f",
+      "base_tree": "0a6796c5667e95ed2301ba7381c123b4acb2ae1a",
+      "last_reviewed_commit": "6fd947921b935b7e1e69293a200400f0fdd5c15f",
+      "rationale": "保留上游技能及内部资源；UE 改造尚未实施。",
+      "principles": [],
+      "validation": [
+        "建立来源基线，使用 check_skills.py 核对整个技能目录内容；未执行 UE 行为验收。"
+      ]
+    },
+    {
+      "name": "retro",
+      "local_path": "skills/engineering/retro",
+      "status": "unmodified",
+      "upstream_path": "skills/engineering/retro",
+      "base_commit": "6fd947921b935b7e1e69293a200400f0fdd5c15f",
+      "base_tree": "335c1862a43da9d629abafdb79ca0c0de118be08",
+      "last_reviewed_commit": "6fd947921b935b7e1e69293a200400f0fdd5c15f",
+      "rationale": "保留上游技能及内部资源；UE 改造尚未实施。",
+      "principles": [],
+      "validation": [
+        "建立来源基线，使用 check_skills.py 核对整个技能目录内容；未执行 UE 行为验收。"
+      ]
+    },
+    {
+      "name": "setup-matt-pocock-skills",
+      "local_path": "skills/engineering/setup-matt-pocock-skills",
+      "status": "unmodified",
+      "upstream_path": "skills/engineering/setup-matt-pocock-skills",
+      "base_commit": "6fd947921b935b7e1e69293a200400f0fdd5c15f",
+      "base_tree": "0b280474a635c9c0efc2bcb2665c87163851bf14",
+      "last_reviewed_commit": "6fd947921b935b7e1e69293a200400f0fdd5c15f",
+      "rationale": "保留上游技能及内部资源；UE 改造尚未实施。",
+      "principles": [],
+      "validation": [
+        "建立来源基线，使用 check_skills.py 核对整个技能目录内容；未执行 UE 行为验收。"
+      ]
+    },
+    {
+      "name": "tdd",
+      "local_path": "skills/engineering/tdd",
+      "status": "unmodified",
+      "upstream_path": "skills/engineering/tdd",
+      "base_commit": "6fd947921b935b7e1e69293a200400f0fdd5c15f",
+      "base_tree": "bf1bf5ffcd63aa8abce830f2955a853c121fb463",
+      "last_reviewed_commit": "6fd947921b935b7e1e69293a200400f0fdd5c15f",
+      "rationale": "保留上游技能及内部资源；UE 改造尚未实施。",
+      "principles": [],
+      "validation": [
+        "建立来源基线，使用 check_skills.py 核对整个技能目录内容；未执行 UE 行为验收。"
+      ]
+    },
+    {
+      "name": "to-spec",
+      "local_path": "skills/engineering/to-spec",
+      "status": "unmodified",
+      "upstream_path": "skills/engineering/to-spec",
+      "base_commit": "6fd947921b935b7e1e69293a200400f0fdd5c15f",
+      "base_tree": "136b9651747cfccbfbb7c50a6b0dfb757e7547d2",
+      "last_reviewed_commit": "6fd947921b935b7e1e69293a200400f0fdd5c15f",
+      "rationale": "保留上游技能及内部资源；UE 改造尚未实施。",
+      "principles": [],
+      "validation": [
+        "建立来源基线，使用 check_skills.py 核对整个技能目录内容；未执行 UE 行为验收。"
+      ]
+    },
+    {
+      "name": "to-tickets",
+      "local_path": "skills/engineering/to-tickets",
+      "status": "unmodified",
+      "upstream_path": "skills/engineering/to-tickets",
+      "base_commit": "6fd947921b935b7e1e69293a200400f0fdd5c15f",
+      "base_tree": "2dee20ad722a31c04ededf9f2d83842473573045",
+      "last_reviewed_commit": "6fd947921b935b7e1e69293a200400f0fdd5c15f",
+      "rationale": "保留上游技能及内部资源；UE 改造尚未实施。",
+      "principles": [],
+      "validation": [
+        "建立来源基线，使用 check_skills.py 核对整个技能目录内容；未执行 UE 行为验收。"
+      ]
+    },
+    {
+      "name": "triage",
+      "local_path": "skills/engineering/triage",
+      "status": "unmodified",
+      "upstream_path": "skills/engineering/triage",
+      "base_commit": "6fd947921b935b7e1e69293a200400f0fdd5c15f",
+      "base_tree": "4cb951d62ecccaed601cdc5f9a1b7b3d8a799635",
+      "last_reviewed_commit": "6fd947921b935b7e1e69293a200400f0fdd5c15f",
+      "rationale": "保留上游技能及内部资源；UE 改造尚未实施。",
+      "principles": [],
+      "validation": [
+        "建立来源基线，使用 check_skills.py 核对整个技能目录内容；未执行 UE 行为验收。"
+      ]
+    },
+    {
+      "name": "wayfinder",
+      "local_path": "skills/engineering/wayfinder",
+      "status": "unmodified",
+      "upstream_path": "skills/engineering/wayfinder",
+      "base_commit": "6fd947921b935b7e1e69293a200400f0fdd5c15f",
+      "base_tree": "8ec0462658381bd1606d3f9db14ffc67df6a2a43",
+      "last_reviewed_commit": "6fd947921b935b7e1e69293a200400f0fdd5c15f",
+      "rationale": "保留上游技能及内部资源；UE 改造尚未实施。",
+      "principles": [],
+      "validation": [
+        "建立来源基线，使用 check_skills.py 核对整个技能目录内容；未执行 UE 行为验收。"
+      ]
+    },
+    {
+      "name": "wizard",
+      "local_path": "skills/engineering/wizard",
+      "status": "unmodified",
+      "upstream_path": "skills/engineering/wizard",
+      "base_commit": "6fd947921b935b7e1e69293a200400f0fdd5c15f",
+      "base_tree": "0a163daf092c6f361158ca9627e81f2cb5230574",
+      "last_reviewed_commit": "6fd947921b935b7e1e69293a200400f0fdd5c15f",
+      "rationale": "保留上游技能及内部资源；UE 改造尚未实施。",
+      "principles": [],
+      "validation": [
+        "建立来源基线，使用 check_skills.py 核对整个技能目录内容；未执行 UE 行为验收。"
+      ]
+    },
+    {
+      "name": "chief-of-staff",
+      "local_path": "skills/in-progress/chief-of-staff",
+      "status": "unmodified",
+      "upstream_path": "skills/in-progress/chief-of-staff",
+      "base_commit": "6fd947921b935b7e1e69293a200400f0fdd5c15f",
+      "base_tree": "22d9deee06f8fe60b752ea386c5fa50312aa15c3",
+      "last_reviewed_commit": "6fd947921b935b7e1e69293a200400f0fdd5c15f",
+      "rationale": "保留上游技能及内部资源；UE 改造尚未实施。",
+      "principles": [],
+      "validation": [
+        "建立来源基线，使用 check_skills.py 核对整个技能目录内容；未执行 UE 行为验收。"
+      ]
+    },
+    {
+      "name": "claude-handoff",
+      "local_path": "skills/in-progress/claude-handoff",
+      "status": "unmodified",
+      "upstream_path": "skills/in-progress/claude-handoff",
+      "base_commit": "6fd947921b935b7e1e69293a200400f0fdd5c15f",
+      "base_tree": "57d198aca08eddccb113632d52c6c13f1f3066ac",
+      "last_reviewed_commit": "6fd947921b935b7e1e69293a200400f0fdd5c15f",
+      "rationale": "保留上游技能及内部资源；UE 改造尚未实施。",
+      "principles": [],
+      "validation": [
+        "建立来源基线，使用 check_skills.py 核对整个技能目录内容；未执行 UE 行为验收。"
+      ]
+    },
+    {
+      "name": "loop-me",
+      "local_path": "skills/in-progress/loop-me",
+      "status": "unmodified",
+      "upstream_path": "skills/in-progress/loop-me",
+      "base_commit": "6fd947921b935b7e1e69293a200400f0fdd5c15f",
+      "base_tree": "a0dfdc3562686d920900973b50289b36e2f7eafe",
+      "last_reviewed_commit": "6fd947921b935b7e1e69293a200400f0fdd5c15f",
+      "rationale": "保留上游技能及内部资源；UE 改造尚未实施。",
+      "principles": [],
+      "validation": [
+        "建立来源基线，使用 check_skills.py 核对整个技能目录内容；未执行 UE 行为验收。"
+      ]
+    },
+    {
+      "name": "setup-ts-deep-modules",
+      "local_path": "skills/in-progress/setup-ts-deep-modules",
+      "status": "unmodified",
+      "upstream_path": "skills/in-progress/setup-ts-deep-modules",
+      "base_commit": "6fd947921b935b7e1e69293a200400f0fdd5c15f",
+      "base_tree": "b32508a8a7d62c07d32d7c5cff84d357719def7f",
+      "last_reviewed_commit": "6fd947921b935b7e1e69293a200400f0fdd5c15f",
+      "rationale": "保留上游技能及内部资源；UE 改造尚未实施。",
+      "principles": [],
+      "validation": [
+        "建立来源基线，使用 check_skills.py 核对整个技能目录内容；未执行 UE 行为验收。"
+      ]
+    },
+    {
+      "name": "writing-beats",
+      "local_path": "skills/in-progress/writing-beats",
+      "status": "unmodified",
+      "upstream_path": "skills/in-progress/writing-beats",
+      "base_commit": "6fd947921b935b7e1e69293a200400f0fdd5c15f",
+      "base_tree": "3a28fb076fdaaec0927080718abb98fc0f340011",
+      "last_reviewed_commit": "6fd947921b935b7e1e69293a200400f0fdd5c15f",
+      "rationale": "保留上游技能及内部资源；UE 改造尚未实施。",
+      "principles": [],
+      "validation": [
+        "建立来源基线，使用 check_skills.py 核对整个技能目录内容；未执行 UE 行为验收。"
+      ]
+    },
+    {
+      "name": "writing-fragments",
+      "local_path": "skills/in-progress/writing-fragments",
+      "status": "unmodified",
+      "upstream_path": "skills/in-progress/writing-fragments",
+      "base_commit": "6fd947921b935b7e1e69293a200400f0fdd5c15f",
+      "base_tree": "98e500e0097ec80f52f6a024c5a2ff6d15235bdb",
+      "last_reviewed_commit": "6fd947921b935b7e1e69293a200400f0fdd5c15f",
+      "rationale": "保留上游技能及内部资源；UE 改造尚未实施。",
+      "principles": [],
+      "validation": [
+        "建立来源基线，使用 check_skills.py 核对整个技能目录内容；未执行 UE 行为验收。"
+      ]
+    },
+    {
+      "name": "writing-shape",
+      "local_path": "skills/in-progress/writing-shape",
+      "status": "unmodified",
+      "upstream_path": "skills/in-progress/writing-shape",
+      "base_commit": "6fd947921b935b7e1e69293a200400f0fdd5c15f",
+      "base_tree": "ac92229646fccf7315ae139c37b479b3790617f2",
+      "last_reviewed_commit": "6fd947921b935b7e1e69293a200400f0fdd5c15f",
+      "rationale": "保留上游技能及内部资源；UE 改造尚未实施。",
+      "principles": [],
+      "validation": [
+        "建立来源基线，使用 check_skills.py 核对整个技能目录内容；未执行 UE 行为验收。"
+      ]
+    },
+    {
+      "name": "git-guardrails-claude-code",
+      "local_path": "skills/misc/git-guardrails-claude-code",
+      "status": "unmodified",
+      "upstream_path": "skills/misc/git-guardrails-claude-code",
+      "base_commit": "6fd947921b935b7e1e69293a200400f0fdd5c15f",
+      "base_tree": "ceed97af09633b300826d0ca0b1464c527ec9a35",
+      "last_reviewed_commit": "6fd947921b935b7e1e69293a200400f0fdd5c15f",
+      "rationale": "保留上游技能及内部资源；UE 改造尚未实施。",
+      "principles": [],
+      "validation": [
+        "建立来源基线，使用 check_skills.py 核对整个技能目录内容；未执行 UE 行为验收。"
+      ]
+    },
+    {
+      "name": "migrate-to-shoehorn",
+      "local_path": "skills/misc/migrate-to-shoehorn",
+      "status": "unmodified",
+      "upstream_path": "skills/misc/migrate-to-shoehorn",
+      "base_commit": "6fd947921b935b7e1e69293a200400f0fdd5c15f",
+      "base_tree": "0aea91a3599a4bf7aeec17e3262d4cbcfcbeec23",
+      "last_reviewed_commit": "6fd947921b935b7e1e69293a200400f0fdd5c15f",
+      "rationale": "保留上游技能及内部资源；UE 改造尚未实施。",
+      "principles": [],
+      "validation": [
+        "建立来源基线，使用 check_skills.py 核对整个技能目录内容；未执行 UE 行为验收。"
+      ]
+    },
+    {
+      "name": "scaffold-exercises",
+      "local_path": "skills/misc/scaffold-exercises",
+      "status": "unmodified",
+      "upstream_path": "skills/misc/scaffold-exercises",
+      "base_commit": "6fd947921b935b7e1e69293a200400f0fdd5c15f",
+      "base_tree": "44a0ee332b9d67ebbd59389c7eb4e5aff1ce845c",
+      "last_reviewed_commit": "6fd947921b935b7e1e69293a200400f0fdd5c15f",
+      "rationale": "保留上游技能及内部资源；UE 改造尚未实施。",
+      "principles": [],
+      "validation": [
+        "建立来源基线，使用 check_skills.py 核对整个技能目录内容；未执行 UE 行为验收。"
+      ]
+    },
+    {
+      "name": "setup-pre-commit",
+      "local_path": "skills/misc/setup-pre-commit",
+      "status": "unmodified",
+      "upstream_path": "skills/misc/setup-pre-commit",
+      "base_commit": "6fd947921b935b7e1e69293a200400f0fdd5c15f",
+      "base_tree": "5b63f9f665bacc9be04cae51982e9ef1469d6699",
+      "last_reviewed_commit": "6fd947921b935b7e1e69293a200400f0fdd5c15f",
+      "rationale": "保留上游技能及内部资源；UE 改造尚未实施。",
+      "principles": [],
+      "validation": [
+        "建立来源基线，使用 check_skills.py 核对整个技能目录内容；未执行 UE 行为验收。"
+      ]
+    },
+    {
+      "name": "grill-me",
+      "local_path": "skills/productivity/grill-me",
+      "status": "unmodified",
+      "upstream_path": "skills/productivity/grill-me",
+      "base_commit": "6fd947921b935b7e1e69293a200400f0fdd5c15f",
+      "base_tree": "3df14e2d3a89459bf300614be9247e3ce74798f8",
+      "last_reviewed_commit": "6fd947921b935b7e1e69293a200400f0fdd5c15f",
+      "rationale": "保留上游技能及内部资源；UE 改造尚未实施。",
+      "principles": [],
+      "validation": [
+        "建立来源基线，使用 check_skills.py 核对整个技能目录内容；未执行 UE 行为验收。"
+      ]
+    },
+    {
+      "name": "grilling",
+      "local_path": "skills/productivity/grilling",
+      "status": "unmodified",
+      "upstream_path": "skills/productivity/grilling",
+      "base_commit": "6fd947921b935b7e1e69293a200400f0fdd5c15f",
+      "base_tree": "f0732035b8b1b60ae39454e4191caef32fa91903",
+      "last_reviewed_commit": "6fd947921b935b7e1e69293a200400f0fdd5c15f",
+      "rationale": "保留上游技能及内部资源；UE 改造尚未实施。",
+      "principles": [],
+      "validation": [
+        "建立来源基线，使用 check_skills.py 核对整个技能目录内容；未执行 UE 行为验收。"
+      ]
+    },
+    {
+      "name": "handoff",
+      "local_path": "skills/productivity/handoff",
+      "status": "unmodified",
+      "upstream_path": "skills/productivity/handoff",
+      "base_commit": "6fd947921b935b7e1e69293a200400f0fdd5c15f",
+      "base_tree": "ce24892bd2d4b9e7fd5ac9b95c03175e18bef388",
+      "last_reviewed_commit": "6fd947921b935b7e1e69293a200400f0fdd5c15f",
+      "rationale": "保留上游技能及内部资源；UE 改造尚未实施。",
+      "principles": [],
+      "validation": [
+        "建立来源基线，使用 check_skills.py 核对整个技能目录内容；未执行 UE 行为验收。"
+      ]
+    },
+    {
+      "name": "teach",
+      "local_path": "skills/productivity/teach",
+      "status": "unmodified",
+      "upstream_path": "skills/productivity/teach",
+      "base_commit": "6fd947921b935b7e1e69293a200400f0fdd5c15f",
+      "base_tree": "2ab11f2f51f3c29771edb5d4258d807a49462491",
+      "last_reviewed_commit": "6fd947921b935b7e1e69293a200400f0fdd5c15f",
+      "rationale": "保留上游技能及内部资源；UE 改造尚未实施。",
+      "principles": [],
+      "validation": [
+        "建立来源基线，使用 check_skills.py 核对整个技能目录内容；未执行 UE 行为验收。"
+      ]
+    },
+    {
+      "name": "to-questionnaire",
+      "local_path": "skills/productivity/to-questionnaire",
+      "status": "unmodified",
+      "upstream_path": "skills/productivity/to-questionnaire",
+      "base_commit": "6fd947921b935b7e1e69293a200400f0fdd5c15f",
+      "base_tree": "46dfbeeba12a9e52eef446676f42e7551023d9a9",
+      "last_reviewed_commit": "6fd947921b935b7e1e69293a200400f0fdd5c15f",
+      "rationale": "保留上游技能及内部资源；UE 改造尚未实施。",
+      "principles": [],
+      "validation": [
+        "建立来源基线，使用 check_skills.py 核对整个技能目录内容；未执行 UE 行为验收。"
+      ]
+    },
+    {
+      "name": "wait-what",
+      "local_path": "skills/productivity/wait-what",
+      "status": "unmodified",
+      "upstream_path": "skills/productivity/wait-what",
+      "base_commit": "6fd947921b935b7e1e69293a200400f0fdd5c15f",
+      "base_tree": "c8b050e6b8c711be1a9008ceacb2126914f0763e",
+      "last_reviewed_commit": "6fd947921b935b7e1e69293a200400f0fdd5c15f",
+      "rationale": "保留上游技能及内部资源；UE 改造尚未实施。",
+      "principles": [],
+      "validation": [
+        "建立来源基线，使用 check_skills.py 核对整个技能目录内容；未执行 UE 行为验收。"
+      ]
+    },
+    {
+      "name": "writing-for-agents",
+      "local_path": "skills/productivity/writing-for-agents",
+      "status": "unmodified",
+      "upstream_path": "skills/productivity/writing-for-agents",
+      "base_commit": "6fd947921b935b7e1e69293a200400f0fdd5c15f",
+      "base_tree": "ad2925850efb8973a72d2e666f7a975f9a2d4a9b",
+      "last_reviewed_commit": "6fd947921b935b7e1e69293a200400f0fdd5c15f",
+      "rationale": "保留上游技能及内部资源；UE 改造尚未实施。",
+      "principles": [],
+      "validation": [
+        "建立来源基线，使用 check_skills.py 核对整个技能目录内容；未执行 UE 行为验收。"
+      ]
+    }
+  ]
+}

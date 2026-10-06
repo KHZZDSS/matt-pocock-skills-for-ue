@@ -1,2 +1,2 @@
-node_modules
-.claude
+__pycache__/
+*.py[cod]

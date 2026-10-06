@@ -8,29 +8,46 @@
     {
       "name": "ask-matt",
       "local_path": "skills/engineering/ask-matt",
-      "status": "unmodified",
+      "status": "adapted",
       "upstream_path": "skills/engineering/ask-matt",
       "base_commit": "6fd947921b935b7e1e69293a200400f0fdd5c15f",
       "base_tree": "da068f2392e1144469cbc602ffff96ef47881a88",
       "last_reviewed_commit": "6fd947921b935b7e1e69293a200400f0fdd5c15f",
-      "rationale": "保留上游技能及内部资源；UE 改造尚未实施。",
-      "principles": [],
+      "rationale": "路由到适配后的执行/测试语义，取消每票强制清空上下文和只在末尾审查的描述。",
+      "principles": [
+        "P1",
+        "P3",
+        "P5",
+        "P6",
+        "P8"
+      ],
       "validation": [
-        "建立来源基线，使用 check_skills.py 核对整个技能目录内容；未执行 UE 行为验收。"
+        "2026-10-07：check_skills.py 来源检查、链接/前置信息检查与 git diff --check 通过。",
+        "独立只读复核：执行/测试路由一致，缺 tracker 配置不阻塞独立工作。 独立审查发现的衔接问题已修复并定向复核通过。",
+        "quick_validate.py 未能运行：可用 Python 缺 PyYAML；改用前置信息对照、描述语法及占位符检查，未更改调用策略。",
+        "仅验证指令和模拟决策；未安装到本机，未运行真实 UE 验收或效率对照。"
       ]
     },
     {
       "name": "code-review",
       "local_path": "skills/engineering/code-review",
-      "status": "unmodified",
+      "status": "adapted",
       "upstream_path": "skills/engineering/code-review",
       "base_commit": "6fd947921b935b7e1e69293a200400f0fdd5c15f",
       "base_tree": "d8e341cee7980127dddda05159bedf25dc853615",
       "last_reviewed_commit": "6fd947921b935b7e1e69293a200400f0fdd5c15f",
-      "rationale": "保留上游技能及内部资源；UE 改造尚未实施。",
-      "principles": [],
+      "rationale": "复用执行基线并覆盖范围内未提交候选，避免空审和重复询问；保留独立审查与双轴证据，取消固定代理数量和强制修复路线。",
+      "principles": [
+        "P5",
+        "P6",
+        "P7",
+        "P8"
+      ],
       "validation": [
-        "建立来源基线，使用 check_skills.py 核对整个技能目录内容；未执行 UE 行为验收。"
+        "2026-10-07：check_skills.py 来源检查、链接/前置信息检查与 git diff --check 通过。",
+        "独立只读场景：复用任务基线、覆盖未提交及未跟踪候选、排除无关改动、缺 tracker 不阻塞审查。 独立审查发现的衔接问题已修复并定向复核通过。",
+        "quick_validate.py 未能运行：可用 Python 缺 PyYAML；改用前置信息对照、描述语法及占位符检查，未更改调用策略。",
+        "仅验证指令和模拟决策；未安装到本机，未运行真实 UE 验收或效率对照。"
       ]
     },
     {
@@ -92,29 +109,48 @@
     {
       "name": "implement",
       "local_path": "skills/engineering/implement",
-      "status": "unmodified",
+      "status": "adapted",
       "upstream_path": "skills/engineering/implement",
       "base_commit": "6fd947921b935b7e1e69293a200400f0fdd5c15f",
       "base_tree": "27a09574c533d4b9a66c7b2b43cdfeeeb9f415b5",
       "last_reviewed_commit": "6fd947921b935b7e1e69293a200400f0fdd5c15f",
-      "rationale": "保留上游技能及内部资源；UE 改造尚未实施。",
-      "principles": [],
+      "rationale": "按反馈成本选验证方式，保留已授权验收边界并在最终昂贵验收前审查，由执行者选择方法。",
+      "principles": [
+        "P3",
+        "P4",
+        "P5",
+        "P6",
+        "P8"
+      ],
       "validation": [
-        "建立来源基线，使用 check_skills.py 核对整个技能目录内容；未执行 UE 行为验收。"
+        "2026-10-07：check_skills.py 来源检查、链接/前置信息检查与 git diff --check 通过。",
+        "独立只读场景：低成本函数修复、配置接线、未提交实现的提前审查。 独立审查发现的衔接问题已修复并定向复核通过。",
+        "quick_validate.py 未能运行：可用 Python 缺 PyYAML；改用前置信息对照、描述语法及占位符检查，未更改调用策略。",
+        "仅验证指令和模拟决策；未安装到本机，未运行真实 UE 验收或效率对照。"
       ]
     },
     {
       "name": "implement-spec",
       "local_path": "skills/engineering/implement-spec",
-      "status": "unmodified",
+      "status": "adapted",
       "upstream_path": "skills/engineering/implement-spec",
       "base_commit": "6fd947921b935b7e1e69293a200400f0fdd5c15f",
       "base_tree": "0cfefc751d0cb64f0c948ffcb17e13b94e778f08",
       "last_reviewed_commit": "6fd947921b935b7e1e69293a200400f0fdd5c15f",
-      "rationale": "保留上游技能及内部资源；UE 改造尚未实施。",
-      "principles": [],
+      "rationale": "按实际资源协调并行实现；按需工作树、版本证据、生产审查前移与验收后关单，取消固定角色交接。",
+      "principles": [
+        "P1",
+        "P2",
+        "P3",
+        "P5",
+        "P6",
+        "P8"
+      ],
       "validation": [
-        "建立来源基线，使用 check_skills.py 核对整个技能目录内容；未执行 UE 行为验收。"
+        "2026-10-07：check_skills.py 来源检查、链接/前置信息检查与 git diff --check 通过。",
+        "独立只读场景：部分接口解锁、单编辑器调度、脏资产保护、修复后的版本验收。 独立审查发现的衔接问题已修复并定向复核通过。",
+        "quick_validate.py 未能运行：可用 Python 缺 PyYAML；改用前置信息对照、描述语法及占位符检查，未更改调用策略。",
+        "仅验证指令和模拟决策；未安装到本机，未运行真实 UE 验收或效率对照。"
       ]
     },
     {
@@ -204,15 +240,23 @@
     {
       "name": "tdd",
       "local_path": "skills/engineering/tdd",
-      "status": "unmodified",
+      "status": "adapted",
       "upstream_path": "skills/engineering/tdd",
       "base_commit": "6fd947921b935b7e1e69293a200400f0fdd5c15f",
       "base_tree": "bf1bf5ffcd63aa8abce830f2955a853c121fb463",
       "last_reviewed_commit": "6fd947921b935b7e1e69293a200400f0fdd5c15f",
-      "rationale": "保留上游技能及内部资源；UE 改造尚未实施。",
-      "principles": [],
+      "rationale": "区分低成本 red-green 与昂贵集成批次；夹具和持久化失败边界；复用已确认的 seam，开放实现和重构方式。",
+      "principles": [
+        "P3",
+        "P4",
+        "P7",
+        "P8"
+      ],
       "validation": [
-        "建立来源基线，使用 check_skills.py 核对整个技能目录内容；未执行 UE 行为验收。"
+        "2026-10-07：check_skills.py 来源检查、链接/前置信息检查与 git diff --check 通过。",
+        "独立只读场景：便宜 red-green、持久化证据、夹具假失败、已有证据复用、稳定场景批量编写与修复。 独立审查发现的衔接问题已修复并定向复核通过。",
+        "quick_validate.py 未能运行：可用 Python 缺 PyYAML；改用前置信息对照、描述语法及占位符检查，未更改调用策略。",
+        "仅验证指令和模拟决策；未安装到本机，未运行真实 UE 验收或效率对照。"
       ]
     },
     {
@@ -232,15 +276,24 @@
     {
       "name": "to-tickets",
       "local_path": "skills/engineering/to-tickets",
-      "status": "unmodified",
+      "status": "adapted",
       "upstream_path": "skills/engineering/to-tickets",
       "base_commit": "6fd947921b935b7e1e69293a200400f0fdd5c15f",
       "base_tree": "2dee20ad722a31c04ededf9f2d83842473573045",
       "last_reviewed_commit": "6fd947921b935b7e1e69293a200400f0fdd5c15f",
-      "rationale": "保留上游技能及内部资源；UE 改造尚未实施。",
-      "principles": [],
+      "rationale": "表达具体解锁条件、资源归属与验收证据；允许有版本依据的事实指针，取消强制预重构与重复审批。",
+      "principles": [
+        "P1",
+        "P2",
+        "P6",
+        "P7",
+        "P8"
+      ],
       "validation": [
-        "建立来源基线，使用 check_skills.py 核对整个技能目录内容；未执行 UE 行为验收。"
+        "2026-10-07：check_skills.py 来源检查、链接/前置信息检查与 git diff --check 通过。",
+        "独立只读场景：稳定接口与实际资产依赖分开判断，展示字段与解锁条件一致。 独立审查发现的衔接问题已修复并定向复核通过。",
+        "quick_validate.py 未能运行：可用 Python 缺 PyYAML；改用前置信息对照、描述语法及占位符检查，未更改调用策略。",
+        "仅验证指令和模拟决策；未安装到本机，未运行真实 UE 验收或效率对照。"
       ]
     },
     {
